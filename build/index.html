@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ugoakpudo</title>
+    <!-- SITE FAVICON -->
+    <link href="" rel="icon">
+    <link href="" rel="apple-touch-icon">
+    
+   
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- EXTERNAL FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/favicon.ico.png" type="image/x-icon">
+    
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <body class="min-h-screen  bg-white dark:bg-black dark:text-white font-default">
+        <header class="sticky top-0 z-50 bg-slate-100 text-black dark:text-slate-300 dark:bg-black mx-auto">
+            <section class="mx-auto flex max-w-full items-center justify-between p-4">
+                <a class="navbar-brand text-4xl" href="#"><i class="fab fa-artstation"></i><i class="fab fa-uniregistry text-amber-400"></i></a>
+                <div>
+                    <button id="hamburger-button" class="relative h-8 w-8 cursor-pointer text-3xl md:hidden ">
+                        <!-- &#9776; -->
+                        <div
+                            class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-black dark:bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-black before:dark:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-black after:dark:bg-white after:transition-all after:duration-500 after:content-['']">
+                        </div>
+                    </button>
+                    <nav class="hidden space-x-8 text-base md:block" aria-label="main">
+                        <a href="#" class="w-full py-6 text-center hover:opacity-90">Home</a>
+                        <a href="#about" class="w-full py-6 text-center hover:opacity-90">About</a>
+                        <a href="#education" class="w-full py-6 text-center hover:opacity-90">Education</a>
+                        <a href="#projects" class="w-full py-6 text-center hover:opacity-90">Projects</a>
+                        <!-- <a href="#articles" class="w-full py-6 text-center hover:opacity-90">Articles</a> -->
+                        <a href="#experience" class="w-full py-6 text-center hover:opacity-90">Experiences</a>
+                       
+                        <a href="#contact" class="w-full py-6 text-center hover:opacity-90">Contact</a>
+                        <!-- <a href="#"
+                            class="border-double border-2 border-indigo-600 rounded-xl p-2 hover:bg-indigo-700 hover:text-white"
+                            target="_blank" rel="noopener noreferrer">Register</a> -->
+                    </nav>
+                </div>
+            </section>
+            <section id="mobile-menu"
+                class="top-68 justify-content-center absolute hidden w-full origin-top animate-open-menu flex-col bg-white text-black dark:bg-black dark:text-slate-50 text-3xl">
+                <!-- <button class="text-8xl self-end px-6">
+                        &times;
+                    </button> -->
+                <nav class="flex min-h-screen flex-col items-center py-8" aria-label="mobile">
+                    <a href="#" class="w-full py-6 text-center hover:opacity-90"><i class="fas fa-home"></i> Home</a>
+                    <a href="#about" class="w-full py-6 text-center hover:opacity-90"><i class="fas fa-user"></i> About</a>
+                    <a href="#education" class="w-full py-6 text-center hover:opacity-90"><i class="fas fa-school"></i> Education</a>
+                    <a href="#projects" class="w-full py-6 text-center hover:opacity-90"><i class="fas fa-clipboard-list"></i> Projects</a>
+                   
+                    <a href="#experience" class="w-full py-6 text-center hover:opacity-90"><i class="fas fa-id-badge"></i> Experiences</a>
+                    
+                    <a href="#contact" class="w-full py-6 text-center hover:opacity-90"><i class="fas fa-sim-card"></i> Contact</a>
+    
+                </nav>
+            </section>
+        </header>
+
+        <!-- hero section starts -->
+
+        <main class="mx-auto min-h-screen max-w-full items-center">
+            <section id="hero"
+                class="w-full min-h-screen widescreen:section-min-height tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-between  gap-8 p-6 sm:flex-row">
+                <article class="sm:w-1/2">
+                    <h2 class="max-w-full text-center text-2xl font-bold text-slate-900 dark:text-white sm:text-left sm:text-3xl">
+                        I’m Ugochukwu Ejike Akpudo,  
+                        <span class="text-amber-400  dark:text-amber-300">a Nigerian HDR candidate</span> at the School of Engineering and Built
+                        Environment, Griffith University.
+                       
+                    </h2>
+                    
+                    <p class="mt-4 max-w-full text-center text-2xl text-slate-700 dark:text-slate-400 sm:text-left">
+                        I am interested in <span class="typing-text"></span> 
+                       
+                    </p> 
+                    <a href="#about" class="btn sm:mx-0"><span>About Me</span>
+                        <i class="fas fa-arrow-circle-down"></i>
+                    </a>
+
+                   
+
+                    <div class="socials sm:mx-0 my-24">
+                        <ul class="social-icons ml-1  sm:mx-1">
+                            <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/ugoakpudo/" target="_blank"><i
+                                        class="fab fa-linkedin"></i></a></li>
+                            <li><a class="github" aria-label="GitHub" href="https://github.com/daslimo" target="_blank"><i
+                                        class="fab fa-github"></i></a></li>
+                            <li><a class="twitter" aria-label="Twitter" href="@uakpudo" target="_blank"><i
+                                        class="fab fa-twitter"></i></a></li>
+                           
+                    
+                    
+                        </ul>
+                    </div>
+                   
+                </article>
+               
+                    <img draggable="false" class="w-full sm:w-1/3 rounded-full shadow-2xl tilt" src="./images/KakaoTalk_20210709_175642602.jpg" alt="" />
+
+                
+               
+            </section>
+           
+        
+            <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
+       
+        
+        <!-- hero section ends -->
+
+        <section id="about"
+            class="widescreen:section-min-height min-h-screen my-12 tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col-reverse w-full items-center justify-around  gap-8 p-6 sm:flex-row-reverse">
+            <article class="sm:w-1/2">
+                <h2 class="max-w-md text-center my-3 text-4xl font-bold text-slate-900 dark:text-white sm:text-left sm:text-5xl">
+                    <i class="fas fa-user-alt"></i> About
+                    <span class="text-amber-400 dark:text-amber-300">Me...</span>
+                    
+                </h2>
+                <p class="mt-2 max-w-full text-start text-2xl sm:text-2xl text-slate-700 dark:text-slate-400">
+                Ugochukwu Ejike Akpudo was born in Nigeria and received his B.Eng degree in Mechanical and
+                Production Engineering at the Enugu State University of Technology, Nigeria in 2012, and his M.Eng
+                degree in Mechanical, Aeronautical, and Electronic Convergence Engineering at Kumoh National
+                Institute of Technology, South Korea in 2021.
+                
+                </p>
+                <p class="mt-2 max-w-full text-start text-2xl sm:text-2xl text-slate-700 dark:text-slate-400 sm:text-left">
+                    Beyond academics, he contributed to most innovative solutions developed at Daewoong
+                Pharmaceuticals Korea, Qui Virtual Support Solutions USA, and the Defense and Reliability
+                laboratory, Kumoh National Institute of Technology, South Korea.
+                He has experiences/interests that span reliability engineering, Prognostics and Health Management,
+                Computer Vision, and multi-disciplinary research.
+                </p>
+                <p class="resumebtn   mx-16 my-6 mb-20">
+                    <a href="cv.pdf" class="btn text-center my-6 z-40"><span>Resume</span>
+                
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </p>
+            </article>
+            <img class="sm:w-1/3 w-full shadow-2xl rounded-xl" src="./images/KakaoTalk_20220518_124535417.jpg" alt="about-img" />
+        </section>
+        
+        <!-- <hr class="mx-auto w-1/2 mb-12 bg-black dark:bg-white" /> -->
+
+
+
+
+        <!-- education section starts -->
+    <section data-aos="flip-down" data-aos-delay="300"
+        class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-12 p-4 w-full sm:text-base" id="education"
+        data-aos="fade-left" data-aos-delay="200">
+        <h2 class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl"><i class="fas fa-graduation-cap"></i>
+            Education
+        </h2>
+        <ul
+            class="mx-auto my-12 flex list-none flex-col items-center justify-between align-middle gap-8 lg:flex-row lg:text-2xl sm:text-base">
+            <!-- 1st card -->
+            <li data-aos="flip-up" data-aos-delay="200"
+                class="flex w-full flex-col items-center  border border-solid border-slate-900 bg-white py-6 px-4 shadow-xl  dark:border-gray-100 dark:bg-black sm:w-5/6 sm:text-base">
+               
+    
+                
+                <h3 class="text-start mt-2 text-3xl text-slate-900 dark:text-white">
+                    Master of Engineering (Research) (Mechanical Engineering)
+                </h3>
+                <p class="mt-2 text-2xl  text-start  text-slate-500 dark:text-slate-400 p-4">
+                Mechanical, Aeronautic, and Electronic Convergence Engineering
+                Kumoh National Institute of Technology, South Korea.
+                Cumulative Grade Point Average (CGPA): 4.50 / 4.50
+
+                Thesis Topic: A Sensor Fusion Approach for The Remaining Useful Life Preparation of Solenoid Pumps <br><br>
+                Details: Two-year Research-based program (full-time). Thesis length 20,334 words, Undertaken over
+                Four semesters. Thesis included in the application. In this interdisciplinary research project, I
+                designed a meta-heuristically optimized prognostics framework for the remaining useful life
+                (RUL) prediction of solenoid pumps using vibration and pressure measurements from a run-tofailure experiment. <br><br>
+                Supervisor: Hur Hang-Wook (Ph.D.), Professor
+                </p>
+    
+                <hr class="mx-auto mt-3 w-full bg-black dark:bg-white" />
+    
+               <p class="text-start mt-2 text-lg">2019-2021</p>
+    
+            </li>
+    
+            <!-- 1st card ends -->
+    
+            <!-- 2nd card begins -->
+            <li data-aos="flip-down" data-aos-delay="200"
+                class="flex w-full flex-col items-center  border border-solid border-slate-900 bg-white py-6 px-4 shadow-xl  dark:border-gray-100 dark:bg-black sm:w-5/6 sm:text-base">
+               
+                <h3 class="text-start mt-2 text-3xl text-slate-900 dark:text-white">
+                Bachelor of Engineering (Taught) (Mechanical and Production Engineering
+                </h3>
+                <p class="mt-2 text-2xl  text-start  text-slate-500 dark:text-slate-400 px-2">
+                    Enugu State University of Science and Technology, Nigeria.
+                    Cumulative Grade Point Average (CGPA): 3.54/ 5.0
+                   
+    
+                </p>
+    
+                <hr class="mx-auto w-full mt-3 bg-slate-300" />
+                <p class="mt-2 text-lg">2007-2012</p>
+    
+               
+            </li>
+    
+            <!-- 2nd card ends -->
+    
+    
+    
+        </ul>
+    </section>
+
+        <!-- education section ends -->
+
+        <!-- experience section starts -->
+        <section class="experience  text-slate-300" id="experience">
+        
+            <h2 class="heading text-center mx-auto text-black sm:text-5xl dark:text-white my-6 text-4xl"><i class="fas fa-briefcase"></i> Experience </h2>
+        
+            <div class="timeline">
+        
+                <div class="container  right  text-slate-400">
+                    <div class="content text-start  text-black">
+                        <div class="tag text-black">
+                            <h2 class="text-xl text-start text-black">Machine Shop Assistant <br> <span class="text-lg text-slate-700"> Maclisle Complex Limited, Enugu Nigeria.</span>
+                           </h2>
+                        </div>
+                        <hr class="mx-auto w-full mt-3 bg-slate-800" />
+
+                       <div class="desc text-lg text-black">
+                            <!-- <h3 class="text-base text-slate-600">Responsibilities: The role assisted the H.O.D. Production department on several tasks and projects. My
+                            core responsibilities included:</h3>
+                            <ul class="list-disc text-slate-600">
+                                <li> Interpreting mechanical (and electrical) drawings to technicians,</li>
+                                <li> Planning and machine setup according to specification,</li>
+                                <li> Lathe, milling, drilling, and shaping machine operation,</li>
+                                <li>Carrying out cost analyses through process efficiencies.</li>
+                                <li> Data management and Project Report Preparation</li>
+                            </ul> -->
+                            <p class="text-slate-700">May 2015 February 2019</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container left text-start text-slate-400">
+                    <div class="content text-black">
+                        <div class="tag text-black">
+                            <h2 class="text-xl text-black">Graduate Trainee <br>
+                             <span class="text-slate-700 text-lg">Anambra Motor Manufacturing Company (ANAMMCO), Enugu Nigeria.</span> </h2>
+                        </div>
+                        <hr class="mx-auto w-full mt-3 bg-slate-800" />
+
+                
+                        <div class="desc text-lg text-black">
+                            <!-- <h3 class="text-base text-slate-600">Responsibilities: In addition to shadowing various staff members, participating in learning experiences,
+                            attending meetings and workshops, and traveling to other working environments to
+                            gain practical experience, my responsibilities also included:</h3>
+                            <ul class="list-disc text-slate-600">
+                                <li>Supervising laborers and technicians during work </li>
+                                <li>Automobile maintenance and repairs </li>
+                                <li>Servicing of workshop equipment</li>
+                                <li>Lathe, milling, drilling, and shaping machine operation</li>
+                                
+                            </ul> -->
+                            <p class="text-slate-700">July 2013 April 2015</p>
+                        </div>
+                    </div>
+                </div>
+        
+               
+
+                <div class="container right">
+                    <div class="content">
+                        <div class="tag text-black">
+                            <h2  class="text-xl text-black">Preliminary Research under Professor Yongsheng Gao (and Dr. Xiaohan Yu) <br> <span class="text-lg text-slate-700">Institute for Integrated and Intelligent Systems,
+                            Griffith University, Queensland Australia</span></h2>
+                        </div>
+                        <div class="desc text-lg">
+                           
+                            <hr class="mx-auto w-full mt-3 bg-slate-800" />
+                            <p class="text-slate-700">October 2021 Current</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container left">
+                    <div class="content">
+                        <div class="tag">
+                            <h2 class="text-xl text-black">Graduate Research Assistant to Professor Hur Jang-Wook <br><span class="text-lg text-slate-700">Defense Reliability Lab, School of Mechanical Engineering,
+                            Kumoh National Institute of Technology, South Korea</span> </h2>
+                        </div>
+                        <div class=" text-lg text-slate-700">
+
+                            <hr class="mx-auto w-full mt-3 bg-slate-800" />
+                            
+                            <p class="mx-6">March 2019 February 2021</p>
+                        </div>
+                    </div>
+                </div>
+        
+        
+        
+        </section>
+        <!-- experience section ends -->
+
+        <!-- Slider main container -->
+        <div id="projects"
+            class="swiper  my-3 bg-slate-white dark:bg-black dark:text-slate-50 w-full   text-2xl text-slate-800 p-3 sm:text-xl text-center"> 
+
+            <h2 class="mt-12 text-4xl sm:text-5xl text-black dark:text-white"> <i class="fas fa-laptop-code"></i> Projects</h2>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    
+                    <h1 class="sm:text-2xl text-3xl mx-3 sm:mx-16 sm:text-justify text-start   mt-2 py-2">Development of a condition monitoring framework for Solenoid and Gear pumps</h1>
+                    <p class="sm:mx-16 mx-2 text-start text-xl sm:text-lg px-2 italic">This is a two-year long research funded by Kumoh National University of Technology, South Korea and
+                    was conducted in the Defense Reliability Lab, School of Mechanical Engineering. The research introduces
+                    a multi-sensor prognostics approach which combines vibrational and pressure sensor measurements
+                    from VSC63A5 Solenoid and Gear pumps using intelligent AI-based models for condition monitoring. The
+                    outputs from this project were presented five international conferences and published on reputable
+                    international journals including the Institute of Electrical and Electronics Engineers (IEEE), MDPI, and
+                    others.</p>
+        
+                    <div class="sm:flex-col md:flex-row mt-5 justify-between text-center align-middle mx-2">
+        
+                        <a class="w-full more-btn my-3 text-center border  p-2 border-solid border-slate-900 bg-amber-400  justify-start text-white hover:bg-white hover:text-amber-300 active:bg-indigo-500 dark:border-none "
+                            href="https://doi.org/10.1109/ACCESS.2021.3063676" target="_blank">Read More...</a>
+        
+        
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                
+                    <h1 class="sm:text-2xl text-3xl mx-3 sm:mx-16 sm:text-justify text-start   mt-2 py-2">Intelligent Wear Monitoring of Micro Drill Bit Automatic Regrinding In-Line Systems</h1>
+                    <p class="sm:mx-16 mx-2 text-start text-xl sm:text-lg px-2 italic">This is a one-year long research funded by Kumoh National University of Technology, South Korea and
+                    was conducted in the Defense Reliability Lab, School of Mechanical Engineering. The research explores
+                    artificial intelligence-based models for learning the discriminant spectral information stored in the vibration
+                    signals from High-precision automatic regrinding in-line equipment and evaluates the accuracy and cost
+                    implications of spectral isolation of the critical spectral segments of the signals for accurate equipment
+                    monitoring. The outputs from this project is published on MDPI Algorithms and was honored as the
+                    cover paper for the Special Issue</p>
+                
+                    <div class="sm:flex-col md:flex-row mt-5 justify-between text-center align-middle mx-2">
+                
+                        <a class="w-full more-btn my-3 text-center border  p-2 border-solid border-slate-900 bg-amber-400  justify-start text-white hover:bg-white hover:text-amber-300 active:bg-indigo-500 dark:border-none "
+                            href="https://doi.org/10.3390/a15060194" target="_blank">Read More...</a>
+                
+                
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                
+                    <h1 class="sm:text-2xl text-3xl mx-3 sm:mx-16 sm:text-justify text-start   mt-2 py-2">Development of an FEA-Assisted Decision-Making Framework for PEMFC Gasket Material
+                    Selection</h1>
+                    <p class="sm:mx-16 mx-2 text-start text-xl sm:text-lg px-2 italic">The design of proton-exchange membrane fuel cells (PEMFC) is geared towards improving performance
+                    and extending life cycles. More often, material selection of PEMFC components contributes a major
+                    determining factor for efficiency and durability with the seal/gasket quality being one of the most critical
+                    components. Finite element analysis (FEA) offers a simulated alternative to real-life stress analysis of
+                    components and has been employed on different rubber-like gasket materials for hydrogen fuel cells for
+                    determining an optimal strain energy density function using different hyperelastic models following
+                    uniaxial tensile testing. The outputs from this two-year-long project is published on MDPI Energies.</p>
+                
+                    <div class="sm:flex-col md:flex-row mt-5 justify-between text-center align-middle mx-2">
+                
+                        <a class="w-full more-btn my-3 text-center border  p-2 border-solid border-slate-900 bg-amber-400  justify-start text-white hover:bg-white hover:text-amber-300 active:bg-indigo-500 dark:border-none "
+                            href="https://doi.org/10.3390/en15072580" target="_blank">Read More...</a>
+                
+                
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                
+                    <h1 class="sm:text-2xl text-3xl mx-3 sm:mx-16 sm:text-justify text-start   mt-2 py-2">Fault Diagnosis for Electrical/Electronic Devices</h1>
+                    <p class="sm:mx-16 mx-2 text-start text-xl sm:text-lg px-2 italic">This is a two-year long research funded by Kumoh National University of Technology, South Korea and
+                    was conducted in the Defense Reliability Lab, School of Mechanical Engineering. This study presents a
+                    fault diagnostic framework that exploits underlying characteristics from sensor measurements and
+                    intelligent classification for fault diagnosis. The outputs from this project is published on MDPI
+                    Algorithms and MDPI Electronics.</p>
+                
+                    <div class="sm:flex-col md:flex-row mt-5 justify-between text-center align-middle mx-2">
+                
+                        <a class="w-full more-btn my-3 text-center border  p-2 border-solid border-slate-900 bg-amber-400  justify-start text-white hover:bg-white hover:text-amber-300 active:bg-indigo-500 dark:border-none "
+                            href="https://doi.org/10.3390/electronics10202487" target="_blank">Read More...</a>
+                        <a class="w-full more-btn my-3 text-center border  p-2 border-solid border-slate-900 bg-amber-400  justify-start text-white hover:bg-white hover:text-amber-300 active:bg-indigo-500 dark:border-none "
+                            href="http://dx.doi.org/10.3390/a15060212" target="_blank">More Info...</a>
+                
+                
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                
+                    <h1 class="sm:text-2xl text-3xl mx-3 sm:mx-16 sm:text-justify text-start   mt-2 py-2">Intelligent Condition Monitoring for Water-Emulsified Diesel CR Systems</h1>
+                    <p class="sm:mx-16 mx-2 text-start text-xl sm:text-lg px-2 italic">Emulsified diesel fuels provide a readily available solution to engine pollution; however, the inherent
+                    reduction in engine power, component corrosion, and/or damage poses a major concern for global
+                    adoption. Notwithstanding, on-going investigations suggest the need for reliable condition monitoring
+                    frameworks to accurately monitor/control the water-diesel emulsion compositions for inevitable
+                    cases. Our research conducted at the Defense Reliability Lab, School of Mechanical Engineering.
+                    Kumoh National University of Technology, South Korea produced reliable and trustworthy models that
+                    provide accurate condition monitoring efficiencies at different emulsion compositions. The outputs from
+                    this project is published on MDPI Energies.</p>
+                
+                    <div class="sm:flex-col md:flex-row mt-5 justify-between text-center align-middle mx-2">
+                
+                        <a class="w-full more-btn my-3 text-center border  p-2 border-solid border-slate-900 bg-amber-400  justify-start text-white hover:bg-white hover:text-amber-300 active:bg-indigo-500 dark:border-none "
+                            href="https://doi.org/10.3390/electronics10202522" target="_blank">Read More...</a>
+                
+                
+                    </div>
+                </div>
+              
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev mt-6"></div>
+            <div class="swiper-button-next mt-6"></div>
+        
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+        
+        <div id="preloader"></div>
+        <a href="#" class="back-to-top d-flex  align-items-center justify-content-center"><i
+                class="fas fa-arrow-circle-up"></i></a>
+
+    <section class="contact my-6" id="contact">
+    
+        <h2 class="heading text-center mx-auto sm:text-5xl text-4xl"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+    
+        <div class="container dark:bg-slate-300">
+            <div class="content dark:bg-slate-300 rounded-xl">
+                <!-- <div class="image-box">
+                    <img class="rounded-full " draggable="false" src="./images/contact.jpg" alt="">
+                </div> -->
+                <form id="contact-form" method="post" action="mailto:akpudougo@gmail.com">
+    
+                    <div class="form-group">
+                        <div class="field">
+                            <input type="text" name="name" placeholder="Name" required>
+                            <i class='fas fa-user'></i>
+                        </div>
+                        <div class="field">
+                            <input type="text" name="email" placeholder="Email" required>
+                            <i class='fas fa-envelope'></i>
+                        </div>
+                        <div class="field">
+                            <input type="text" name="phone" placeholder="Phone">
+                            <i class='fas fa-phone-alt'></i>
+                        </div>
+                        <div class="message">
+                            <textarea placeholder="Message" name="message" required></textarea>
+                            <i class="fas fa-comment-dots"></i>
+                        </div>
+                    </div>
+                    <div class="button-area p-2 text-base">
+                        <button type="submit">
+                            Submit <i class="fa fa-paper-plane"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- contact section ends -->
+    
+    
+    <!-- footer section starts -->
+    <section class="footer text-lg bg-white text-black dark:bg-black">
+    
+        <div class="box-container">
+    
+            <div class="box text-black dark:text-white">
+               
+                <p class="text-black dark:text-white">Thank you for visiting my personal portfolio website. Connect with me over socials. <br /> <br /> Connect
+                    with me over live chat!</p>
+            </div>
+    
+            <div class="box">
+                <h3 class="text-black dark:text-white">Important links</h3>
+                <a class="text-black dark:text-white" href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+                <a class="text-black dark:text-white" href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+                <a class="text-black dark:text-white" href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+                <a class="text-black dark:text-white" href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+                <a class="text-black dark:text-white" href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+                <a class="text-black dark:text-white" href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+            </div>
+    
+            <div class="box">
+                <h3 class="text-black dark:text-white">contact info</h3>
+               
+                <p> <i class="fas fa-envelope"></i>odomaurice501@gmail.com</p>
+                <p> <i class="fas fa-map-marked-alt"></i>Enugu, Nigeria</p>
+                <div class="share">
+    
+                    <a href="https://www.linkedin.com/in/ugoakpudo/" class="fab fa-linkedin" aria-label="LinkedIn"
+                        target="_blank"></a>
+                    <a href="https://github.com/daslimo" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+                    <a href="mailto:akpudougo@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+                    <a href="@uakpudo" class="fab fa-twitter" aria-label="Twitter"
+                        target="_blank"></a>
+                    <a href="https://orcid.org/0000-0003-4221-5192" class="fab fa-orcid" aria-label="Orcid"
+                        target="_blank"></a>
+                        <a href="https://www.researchgate.net/profile/Ugochukwu-Akpudo" class="fab fa-researchgate" aria-label="Researchgate" target="_blank"></a>
+                        
+                </div>
+            </div>
+        </div>
+    
+        <h1 class="credit text-black dark:text-white"><a target="_blank"
+                href="https://www.linkedin.com/in/odo-maurice-b99197198/"><i class="fas fa-code-branch"></i> Contact the Developer</a></h1>
+
+               
+    
+    </section>
+    <!-- footer section ends -->
+
+
+
+
+    </main>
+
+
+        <!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+        
+        <!-- jquery cdn -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
+        <!-- typed.js cdn -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+            integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+            <script src="./js/swiper-bundle.min.js"> </script>
+        
+       
+        
+        <!-- vanilla tilt.js links -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+            integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+            <script>
+                const swiper = new Swiper('.swiper', {
+                    // Optional parameters
+                    direction: 'horizontal',
+                    loop: true,
+
+                    // If we need pagination
+                    pagination: {
+                        el: '.swiper-pagination',
+                    },
+
+                    // Navigation arrows
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+
+                    // And if we need scrollbar
+                    scrollbar: {
+                        el: '.swiper-scrollbar',
+                    },
+                });
+
+                (function () {
+                    "use strict"; const select = (el, all = false) => {
+                        el = el.trim()
+                        if (all) { return [...document.querySelectorAll(el)] } else { return document.querySelector(el) }
+                    }
+                    const on = (type, el, listener, all = false) => {
+                        let selectEl = select(el, all)
+                        if (selectEl) { if (all) { selectEl.forEach(e => e.addEventListener(type, listener)) } else { selectEl.addEventListener(type, listener) } }
+                    }
+                    const onscroll = (el, listener) => { el.addEventListener('scroll', listener) }
+                    let backtotop = select('.back-to-top')
+                    if (backtotop) {
+                        const toggleBacktotop = () => { if (window.scrollY > 100) { backtotop.classList.add('active') } else { backtotop.classList.remove('active') } }
+                        window.addEventListener('load', toggleBacktotop)
+                        onscroll(document, toggleBacktotop)
+                    }
+                    on('click', '.mobile-nav-toggle', function (e) {
+                        select('#navbar').classList.toggle('navbar-mobile')
+                        this.classList.toggle('bi-list')
+                        this.classList.toggle('bi-x')
+                    })
+                    on('click', '.navbar .dropdown > a', function (e) {
+                        if (select('#navbar').classList.contains('navbar-mobile')) {
+                            e.preventDefault()
+                            this.nextElementSibling.classList.toggle('dropdown-active')
+                        }
+                    }, true)
+                    let preloader = select('#preloader'); if (preloader) { window.addEventListener('load', () => { preloader.remove() }); }
+                    new Swiper('.testimonials-slider', { speed: 600, loop: true, autoplay: { delay: 5000, disableOnInteraction: false }, slidesPerView: 'auto', pagination: { el: '.swiper-pagination', type: 'bullets', clickable: true }, breakpoints: { 320: { slidesPerView: 1, spaceBetween: 20 }, 1200: { slidesPerView: 2, spaceBetween: 20 } } }); window.addEventListener('load', () => { AOS.init({ duration: 1000, easing: 'ease-in-out', once: true, mirror: false }) });
+                })()
+            </script>
+        
+       
+        
+
+    
+</body>
+</html>
