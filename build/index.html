@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- ANIMATE ON SCROLL CSS CDN -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     <!-- EXTERNAL FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,7 +41,7 @@
                             class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-black dark:bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-black before:dark:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-black after:dark:bg-white after:transition-all after:duration-500 after:content-['']">
                         </div>
                     </button>
-                    <nav class="hidden space-x-8 text-base md:block" aria-label="main">
+                    <nav class="hidden space-x-8 text-lg md:block " aria-label="main">
                         <a href="#" class="w-full py-6 text-center hover:opacity-90">Home</a>
                         <a href="#about" class="w-full py-6 text-center hover:opacity-90">About</a>
                         <a href="#education" class="w-full py-6 text-center hover:opacity-90">Education</a>
@@ -58,7 +61,7 @@
                 <!-- <button class="text-8xl self-end px-6">
                         &times;
                     </button> -->
-                <nav class="flex min-h-screen flex-col items-center py-8" aria-label="mobile">
+                <nav class="flex min-h-screen text-4xl flex-col items-center py-8" aria-label="mobile">
                     <a href="#" class="w-full py-6 text-center hover:opacity-90"><i class="fas fa-home"></i> Home</a>
                     <a href="#about" class="w-full py-6 text-center hover:opacity-90"><i class="fas fa-user"></i> About</a>
                     <a href="#education" class="w-full py-6 text-center hover:opacity-90"><i class="fas fa-school"></i> Education</a>
@@ -75,27 +78,25 @@
         <!-- hero section starts -->
 
         <main class="mx-auto min-h-screen max-w-full items-center">
-            <section id="hero"
+            <section id="hero" data-aos="fade-up"
                 class="w-full min-h-screen widescreen:section-min-height tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-between  gap-8 p-6 sm:flex-row">
                 <article class="sm:w-1/2">
-                    <h2 class="max-w-full text-center text-2xl font-bold text-slate-900 dark:text-white sm:text-left sm:text-3xl">
+                    <h2 data-aos="zoom-in" class="max-w-full text-center text-4xl p-3 font-bold text-slate-900 dark:text-white sm:text-left ">
                         I’m Ugochukwu Ejike Akpudo,  
                         <span class="text-amber-400  dark:text-amber-300">a Nigerian HDR candidate</span> at the School of Engineering and Built
                         Environment, Griffith University.
                        
                     </h2>
                     
-                    <p class="mt-4 max-w-full text-center text-2xl text-slate-700 dark:text-slate-400 sm:text-left">
+                    <p class="mt-4 max-w-full text-center text-3xl text-slate-700 dark:text-slate-400 sm:text-left">
                         I am interested in <span class="typing-text"></span> 
                        
                     </p> 
-                    <a href="#about" class="btn sm:mx-0"><span>About Me</span>
-                        <i class="fas fa-arrow-circle-down"></i>
-                    </a>
+                    
 
                    
 
-                    <div class="socials sm:mx-0 my-24">
+                    <div class="socials sm:mx-0 my-6">
                         <ul class="social-icons ml-1  sm:mx-1">
                             <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/ugoakpudo/" target="_blank"><i
                                         class="fab fa-linkedin"></i></a></li>
@@ -111,7 +112,7 @@
                    
                 </article>
                
-                    <img draggable="false" class="w-full sm:w-1/3 rounded-full shadow-2xl tilt" src="./images/KakaoTalk_20210709_175642602.jpg" alt="" />
+                    <img data-aos="zoom-out" draggable="false" class="w-full sm:w-1/3 rounded-full shadow-2xl tilt" src="./images/KakaoTalk_20210709_175642602.jpg" alt="" />
 
                 
                
@@ -126,19 +127,19 @@
         <section id="about"
             class="widescreen:section-min-height min-h-screen my-12 tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col-reverse w-full items-center justify-around  gap-8 p-6 sm:flex-row-reverse">
             <article class="sm:w-1/2">
-                <h2 class="max-w-md text-center my-3 text-4xl font-bold text-slate-900 dark:text-white sm:text-left sm:text-5xl">
+                <h2 data-aos="fade-up" class="max-w-md text-center my-6 text-4xl font-bold text-slate-900 dark:text-white sm:text-left sm:text-5xl">
                     <i class="fas fa-user-alt"></i> About
                     <span class="text-amber-400 dark:text-amber-300">Me...</span>
                     
                 </h2>
-                <p class="mt-2 max-w-full text-start text-2xl sm:text-2xl text-slate-700 dark:text-slate-400">
+                <p data-aos="flip-up" class="mt-2 max-w-full text-start text-2xl sm:text-2xl text-slate-700 dark:text-slate-400">
                 Ugochukwu Ejike Akpudo was born in Nigeria and received his B.Eng degree in Mechanical and
                 Production Engineering at the Enugu State University of Technology, Nigeria in 2012, and his M.Eng
                 degree in Mechanical, Aeronautical, and Electronic Convergence Engineering at Kumoh National
                 Institute of Technology, South Korea in 2021.
                 
                 </p>
-                <p class="mt-2 max-w-full text-start text-2xl sm:text-2xl text-slate-700 dark:text-slate-400 sm:text-left">
+                <p data-aos="fade-down" class="mt-2 max-w-full text-start text-2xl sm:text-2xl text-slate-700 dark:text-slate-400 sm:text-left">
                     Beyond academics, he contributed to most innovative solutions developed at Daewoong
                 Pharmaceuticals Korea, Qui Virtual Support Solutions USA, and the Defense and Reliability
                 laboratory, Kumoh National Institute of Technology, South Korea.
@@ -175,10 +176,10 @@
                
     
                 
-                <h3 class="text-start mt-2 text-3xl text-slate-900 dark:text-white">
+                <h3 class="text-start mt-2 text-4xl text-slate-900 dark:text-white">
                     Master of Engineering (Research) (Mechanical Engineering)
                 </h3>
-                <p class="mt-2 text-2xl  text-start  text-slate-500 dark:text-slate-400 p-4">
+                <p class="mt-2 text-3xl  text-start  text-slate-500 dark:text-slate-400 p-4">
                 Mechanical, Aeronautic, and Electronic Convergence Engineering
                 Kumoh National Institute of Technology, South Korea.
                 Cumulative Grade Point Average (CGPA): 4.50 / 4.50
@@ -193,7 +194,7 @@
     
                 <hr class="mx-auto mt-3 w-full bg-black dark:bg-white" />
     
-               <p class="text-start mt-2 text-lg">2019-2021</p>
+               <p class="text-start mt-2 text-2xl">2019-2021</p>
     
             </li>
     
@@ -203,10 +204,10 @@
             <li data-aos="flip-down" data-aos-delay="200"
                 class="flex w-full flex-col items-center  border border-solid border-slate-900 bg-white py-6 px-4 shadow-xl  dark:border-gray-100 dark:bg-black sm:w-5/6 sm:text-base">
                
-                <h3 class="text-start mt-2 text-3xl text-slate-900 dark:text-white">
+                <h3 class="text-start mt-2 text-4xl text-slate-900 dark:text-white">
                 Bachelor of Engineering (Taught) (Mechanical and Production Engineering
                 </h3>
-                <p class="mt-2 text-2xl  text-start  text-slate-500 dark:text-slate-400 px-2">
+                <p class="mt-2 text-3xl  text-start  text-slate-500 dark:text-slate-400 px-2">
                     Enugu State University of Science and Technology, Nigeria.
                     Cumulative Grade Point Average (CGPA): 3.54/ 5.0
                    
@@ -214,7 +215,7 @@
                 </p>
     
                 <hr class="mx-auto w-full mt-3 bg-slate-300" />
-                <p class="mt-2 text-lg">2007-2012</p>
+                <p class="mt-2 text-2xl">2007-2012</p>
     
                
             </li>
@@ -229,16 +230,16 @@
         <!-- education section ends -->
 
         <!-- experience section starts -->
-        <section class="experience  text-slate-300" id="experience">
+        <section data-aos="zoom-out" class="experience  text-slate-300" id="experience">
         
-            <h2 class="heading text-center mx-auto text-black sm:text-5xl dark:text-white my-6 text-4xl"><i class="fas fa-briefcase"></i> Experience </h2>
+            <h2 class="heading text-center mx-auto text-black text-5xl dark:text-white my-6 "><i class="fas fa-briefcase"></i> Experience </h2>
         
             <div class="timeline">
         
                 <div class="container  right  text-slate-400">
                     <div class="content text-start  text-black">
                         <div class="tag text-black">
-                            <h2 class="text-xl text-start text-black">Machine Shop Assistant <br> <span class="text-lg text-slate-700"> Maclisle Complex Limited, Enugu Nigeria.</span>
+                            <h2 class="text-3xl text-start text-black">Machine Shop Assistant <br> <span class="text-lg text-slate-700"> Maclisle Complex Limited, Enugu Nigeria.</span>
                            </h2>
                         </div>
                         <hr class="mx-auto w-full mt-3 bg-slate-800" />
@@ -253,7 +254,7 @@
                                 <li>Carrying out cost analyses through process efficiencies.</li>
                                 <li> Data management and Project Report Preparation</li>
                             </ul> -->
-                            <p class="text-slate-700">May 2015 February 2019</p>
+                            <p class="text-slate-700 text-2xl">May 2015 February 2019</p>
                         </div>
                     </div>
                 </div>
@@ -261,7 +262,7 @@
                 <div class="container left text-start text-slate-400">
                     <div class="content text-black">
                         <div class="tag text-black">
-                            <h2 class="text-xl text-black">Graduate Trainee <br>
+                            <h2 class="text-3xl text-black">Graduate Trainee <br>
                              <span class="text-slate-700 text-lg">Anambra Motor Manufacturing Company (ANAMMCO), Enugu Nigeria.</span> </h2>
                         </div>
                         <hr class="mx-auto w-full mt-3 bg-slate-800" />
@@ -278,7 +279,7 @@
                                 <li>Lathe, milling, drilling, and shaping machine operation</li>
                                 
                             </ul> -->
-                            <p class="text-slate-700">July 2013 April 2015</p>
+                            <p class="text-slate-700 text-2xl">July 2013 April 2015</p>
                         </div>
                     </div>
                 </div>
@@ -288,13 +289,13 @@
                 <div class="container right">
                     <div class="content">
                         <div class="tag text-black">
-                            <h2  class="text-xl text-black">Preliminary Research under Professor Yongsheng Gao (and Dr. Xiaohan Yu) <br> <span class="text-lg text-slate-700">Institute for Integrated and Intelligent Systems,
+                            <h2  class="text-3xl text-black">Preliminary Research under Professor Yongsheng Gao (and Dr. Xiaohan Yu) <br> <span class="text-lg text-slate-700">Institute for Integrated and Intelligent Systems,
                             Griffith University, Queensland Australia</span></h2>
                         </div>
                         <div class="desc text-lg">
                            
                             <hr class="mx-auto w-full mt-3 bg-slate-800" />
-                            <p class="text-slate-700">October 2021 Current</p>
+                            <p class="text-slate-700 text-2xl">October 2021 Current</p>
                         </div>
                     </div>
                 </div>
@@ -302,14 +303,14 @@
                 <div class="container left">
                     <div class="content">
                         <div class="tag">
-                            <h2 class="text-xl text-black">Graduate Research Assistant to Professor Hur Jang-Wook <br><span class="text-lg text-slate-700">Defense Reliability Lab, School of Mechanical Engineering,
+                            <h2 class="text-3xl text-black">Graduate Research Assistant to Professor Hur Jang-Wook <br><span class="text-lg text-slate-700">Defense Reliability Lab, School of Mechanical Engineering,
                             Kumoh National Institute of Technology, South Korea</span> </h2>
                         </div>
                         <div class=" text-lg text-slate-700">
 
                             <hr class="mx-auto w-full mt-3 bg-slate-800" />
                             
-                            <p class="mx-6">March 2019 February 2021</p>
+                            <p class="mx-6 text-2xl">March 2019 February 2021</p>
                         </div>
                     </div>
                 </div>
@@ -321,7 +322,7 @@
 
         <!-- Slider main container -->
         <div id="projects"
-            class="swiper  my-3 bg-slate-white dark:bg-black dark:text-slate-50 w-full   text-2xl text-slate-800 p-3 sm:text-xl text-center"> 
+            class="swiper  my-6 bg-slate-white dark:bg-black dark:text-slate-50 w-full   text-4xl text-slate-800 p-3  text-center"> 
 
             <h2 class="mt-12 text-4xl sm:text-5xl text-black dark:text-white"> <i class="fas fa-laptop-code"></i> Projects</h2>
             <!-- Additional required wrapper -->
@@ -329,8 +330,8 @@
                 <!-- Slides -->
                 <div class="swiper-slide">
                     
-                    <h1 class="sm:text-2xl text-3xl mx-3 sm:mx-16 sm:text-justify text-start   mt-2 py-2">Development of a condition monitoring framework for Solenoid and Gear pumps</h1>
-                    <p class="sm:mx-16 mx-2 text-start text-xl sm:text-lg px-2 italic">This is a two-year long research funded by Kumoh National University of Technology, South Korea and
+                    <h1 class=" text-3xl mx-3 sm:mx-16 sm:text-justify text-start   mt-2 py-2">Development of a condition monitoring framework for Solenoid and Gear pumps</h1>
+                    <p class="sm:mx-16 mx-2 text-start text-2xl  px-2">This is a two-year long research funded by Kumoh National University of Technology, South Korea and
                     was conducted in the Defense Reliability Lab, School of Mechanical Engineering. The research introduces
                     a multi-sensor prognostics approach which combines vibrational and pressure sensor measurements
                     from VSC63A5 Solenoid and Gear pumps using intelligent AI-based models for condition monitoring. The
@@ -349,8 +350,8 @@
 
                 <div class="swiper-slide">
                 
-                    <h1 class="sm:text-2xl text-3xl mx-3 sm:mx-16 sm:text-justify text-start   mt-2 py-2">Intelligent Wear Monitoring of Micro Drill Bit Automatic Regrinding In-Line Systems</h1>
-                    <p class="sm:mx-16 mx-2 text-start text-xl sm:text-lg px-2 italic">This is a one-year long research funded by Kumoh National University of Technology, South Korea and
+                    <h1 class=" text-3xl mx-3 sm:mx-16 sm:text-justify text-start   mt-2 py-2">Intelligent Wear Monitoring of Micro Drill Bit Automatic Regrinding In-Line Systems</h1>
+                    <p class="sm:mx-16 mx-2 text-start text-2xl  px-2">This is a one-year long research funded by Kumoh National University of Technology, South Korea and
                     was conducted in the Defense Reliability Lab, School of Mechanical Engineering. The research explores
                     artificial intelligence-based models for learning the discriminant spectral information stored in the vibration
                     signals from High-precision automatic regrinding in-line equipment and evaluates the accuracy and cost
@@ -369,9 +370,9 @@
 
                 <div class="swiper-slide">
                 
-                    <h1 class="sm:text-2xl text-3xl mx-3 sm:mx-16 sm:text-justify text-start   mt-2 py-2">Development of an FEA-Assisted Decision-Making Framework for PEMFC Gasket Material
+                    <h1 class=" text-3xl mx-3 sm:mx-16 sm:text-justify text-start   mt-2 py-2">Development of an FEA-Assisted Decision-Making Framework for PEMFC Gasket Material
                     Selection</h1>
-                    <p class="sm:mx-16 mx-2 text-start text-xl sm:text-lg px-2 italic">The design of proton-exchange membrane fuel cells (PEMFC) is geared towards improving performance
+                    <p class="sm:mx-16 mx-2 text-start text-2xl  px-2">The design of proton-exchange membrane fuel cells (PEMFC) is geared towards improving performance
                     and extending life cycles. More often, material selection of PEMFC components contributes a major
                     determining factor for efficiency and durability with the seal/gasket quality being one of the most critical
                     components. Finite element analysis (FEA) offers a simulated alternative to real-life stress analysis of
@@ -390,8 +391,8 @@
 
                 <div class="swiper-slide">
                 
-                    <h1 class="sm:text-2xl text-3xl mx-3 sm:mx-16 sm:text-justify text-start   mt-2 py-2">Fault Diagnosis for Electrical/Electronic Devices</h1>
-                    <p class="sm:mx-16 mx-2 text-start text-xl sm:text-lg px-2 italic">This is a two-year long research funded by Kumoh National University of Technology, South Korea and
+                    <h1 class=" text-3xl mx-3 sm:mx-16 sm:text-justify text-start   mt-2 py-2">Fault Diagnosis for Electrical/Electronic Devices</h1>
+                    <p class="sm:mx-16 mx-2 text-start text-2xl  px-2">This is a two-year long research funded by Kumoh National University of Technology, South Korea and
                     was conducted in the Defense Reliability Lab, School of Mechanical Engineering. This study presents a
                     fault diagnostic framework that exploits underlying characteristics from sensor measurements and
                     intelligent classification for fault diagnosis. The outputs from this project is published on MDPI
@@ -410,8 +411,8 @@
 
                 <div class="swiper-slide">
                 
-                    <h1 class="sm:text-2xl text-3xl mx-3 sm:mx-16 sm:text-justify text-start   mt-2 py-2">Intelligent Condition Monitoring for Water-Emulsified Diesel CR Systems</h1>
-                    <p class="sm:mx-16 mx-2 text-start text-xl sm:text-lg px-2 italic">Emulsified diesel fuels provide a readily available solution to engine pollution; however, the inherent
+                    <h1 class=" text-3xl mx-3 sm:mx-16 sm:text-justify text-start   mt-2 py-2">Intelligent Condition Monitoring for Water-Emulsified Diesel CR Systems</h1>
+                    <p class="sm:mx-16 mx-2 text-start text-2xl px-2">Emulsified diesel fuels provide a readily available solution to engine pollution; however, the inherent
                     reduction in engine power, component corrosion, and/or damage poses a major concern for global
                     adoption. Notwithstanding, on-going investigations suggest the need for reliable condition monitoring
                     frameworks to accurately monitor/control the water-diesel emulsion compositions for inevitable
@@ -438,7 +439,7 @@
             <div class="swiper-button-next mt-6"></div>
         
             <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
+            <!-- <div class="swiper-scrollbar"></div> -->
         </div>
         
         <div id="preloader"></div>
@@ -492,7 +493,7 @@
     
             <div class="box text-black dark:text-white">
                
-                <p class="text-black dark:text-white">Thank you for visiting my personal portfolio website. Connect with me over socials. <br /> <br /> Connect
+                <p class="text-black dark:text-white text-2xl">Thank you for visiting my personal portfolio website. Connect with me over socials. <br /> <br /> Connect
                     with me over live chat!</p>
             </div>
     
@@ -561,6 +562,13 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
             integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+            <!-- ANIMATE ON SCROLL JS CDN -->
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <!-- ANIMATE ON SCROLL INIT -->
+            <script defer>
+                AOS.init();
+            </script>
 
             <script>
                 const swiper = new Swiper('.swiper', {

@@ -952,9 +952,9 @@ video {
   line-height: 2.25rem;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-8xl {
@@ -967,22 +967,18 @@ video {
   line-height: 2rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-bold {
   font-weight: 700;
-}
-
-.italic {
-  font-style: italic;
 }
 
 .text-black {
@@ -1157,7 +1153,7 @@ nav a:hover {
   margin-top: 1rem;
   position: absolute;
   line-height: 1;
-  padding: 1rem 1.5rem;
+  /* padding: 1rem 4rem; */
   border-radius: 4em;
   transition: 0.5s;
   color: #ddd;
@@ -1304,7 +1300,7 @@ nav a:hover {
 }
 
 .resumebtn .btn {
-  padding: 0.75rem;
+  padding: 1.7rem;
   border-radius: 0.5em;
   transition: 0.3s;
   color: #fff;
@@ -1315,7 +1311,7 @@ nav a:hover {
 
 .resumebtn .btn span {
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 2rem;
   letter-spacing: 0.1rem;
 }
 
@@ -2367,7 +2363,7 @@ form .button-area {
   color: #fff;
   border: none;
   outline: none;
-  font-size: 1.3rem;
+  font-size: 2rem;
   cursor: pointer;
   border-radius: 5px;
   padding: 13px 25px;
@@ -2454,14 +2450,14 @@ form .button-area {
 }
 
 .footer .box-container .box h3 {
-  font-size: 2.0rem;
+  font-size: 3rem;
   /* color: #fff; */
   padding-bottom: 1rem;
   font-weight: normal;
 }
 
 .footer .box-container .box p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   /* color: #ccc; */
   padding: 0.7rem 0;
   text-transform: none;
@@ -2473,7 +2469,7 @@ form .button-area {
 }
 
 .footer .box-container .box a {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   /* color: rgb(238, 238, 238); */
   padding: 0.3rem 0;
   display: block;
@@ -2865,11 +2861,6 @@ form .button-area {
 
   .sm\:text-xl {
     font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .sm\:text-lg {
-    font-size: 1.125rem;
     line-height: 1.75rem;
   }
 }

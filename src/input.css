@@ -79,7 +79,7 @@
         margin-top: 1rem;
         position: absolute;
         line-height: 1;
-        padding: 1rem 1.5rem;
+        /* padding: 1rem 4rem; */
         border-radius: 4em;
         transition: 0.5s;
         color: #ddd;
@@ -242,7 +242,7 @@
         }
     
         .resumebtn .btn {
-            padding: 0.75rem;
+            padding: 1.7rem;
             border-radius: 0.5em;
             transition: 0.3s;
             color: #fff;
@@ -254,7 +254,7 @@
     
         .resumebtn .btn span {
             font-weight: 600;
-            font-size: 1rem;
+            font-size: 2rem;
             letter-spacing: 0.1rem;
         }
     
@@ -1507,7 +1507,7 @@
                                     color: #fff;
                                     border: none;
                                     outline: none;
-                                    font-size: 1.3rem;
+                                    font-size: 2rem;
                                     cursor: pointer;
                                     border-radius: 5px;
                                     padding: 13px 25px;
@@ -1594,14 +1594,14 @@
                                 }
                 
                                 .footer .box-container .box h3 {
-                                    font-size: 2.0rem;
+                                    font-size: 3rem;
                                     /* color: #fff; */
                                     padding-bottom: 1rem;
                                     font-weight: normal;
                                 }
                 
                                 .footer .box-container .box p {
-                                    font-size: 1.5rem;
+                                    font-size: 2rem;
                                     /* color: #ccc; */
                                     padding: 0.7rem 0;
                                     text-transform: none;
@@ -1613,7 +1613,7 @@
                                 }
                 
                                 .footer .box-container .box a {
-                                    font-size: 1.5rem;
+                                    font-size: 1.8rem;
                                     /* color: rgb(238, 238, 238); */
                                     padding: 0.3rem 0;
                                     display: block;
