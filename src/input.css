@@ -180,23 +180,24 @@
 
     .socials .social-icons {
         padding-left: 0;
-        /* margin: 4rem; */
+        margin: 4rem 4rem 4rem 0rem;
         list-style: none;
     }
 
     .socials .social-icons li {
         display: inline-block;
         margin-bottom: 14px;
+       
     }
 
     .social-icons a {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         display: inline-block;
-        line-height: 44px;
+        line-height: 1.5;
         color: #dcb423;
         background-color: #09011b;
-        width: 40px;
-        height: 40px;
+        width: 4rem;
+        height: 4rem;
         text-align: center;
         margin-right: 8px;
         border-radius: 100%;
@@ -302,6 +303,7 @@
               min-height: 60%;
               padding-top: 5rem;
               padding-bottom: 4rem;
+              
     
           }
     
@@ -487,7 +489,8 @@
               width: calc(var(--swiper-navigation-size)/ 44 * 27);
               height: var(--swiper-navigation-size);
               margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
-              margin-top: 3rem !important;
+              /* margin-top: 3rem !important; */
+             
               z-index: 10;
               cursor: pointer;
               display: flex;
@@ -978,7 +981,7 @@
               right: 15px;
               bottom: 15px;
               z-index: 996;
-              /* background: #ddd ; */
+              /* background-color: #dcb423; */
               width: 40px;
               height: 40px;
               border-radius: 50px;
@@ -987,13 +990,13 @@
     
           .back-to-top i {
               font-size: 28px;
-              color: #fff;
+              color: gold;
               line-height: 1.5;
           }
     
           .back-to-top:hover {
               /* background: #ddd; */
-              color: #fff
+              color: gold;
           }
     
           .back-to-top.active {
@@ -1383,6 +1386,8 @@
                                 .contact {
                                     /* background: #e5ecfb; */
                                     min-height: 60vh;
+
+                                    margin-top: 6rem;
                                 }
                 
                                 .contact .container {

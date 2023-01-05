@@ -588,9 +588,9 @@ video {
   margin-right: auto;
 }
 
-.my-24 {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .my-12 {
@@ -598,19 +598,9 @@ video {
   margin-bottom: 3rem;
 }
 
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
 .mx-16 {
   margin-left: 4rem;
   margin-right: 4rem;
-}
-
-.my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
 }
 
 .mx-6 {
@@ -628,6 +618,11 @@ video {
   margin-right: 0.5rem;
 }
 
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .-mt-0\.5 {
   margin-top: -0.125rem;
 }
@@ -642,10 +637,6 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.ml-1 {
-  margin-left: 0.25rem;
 }
 
 .mt-2 {
@@ -981,6 +972,10 @@ video {
   font-weight: 700;
 }
 
+.capitalize {
+  text-transform: capitalize;
+}
+
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1240,7 +1235,7 @@ nav a:hover {
 
 .socials .social-icons {
   padding-left: 0;
-  /* margin: 4rem; */
+  margin: 4rem 4rem 4rem 0rem;
   list-style: none;
 }
 
@@ -1250,13 +1245,13 @@ nav a:hover {
 }
 
 .social-icons a {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   display: inline-block;
-  line-height: 44px;
+  line-height: 1.5;
   color: #dcb423;
   background-color: #09011b;
-  width: 40px;
-  height: 40px;
+  width: 4rem;
+  height: 4rem;
   text-align: center;
   margin-right: 8px;
   border-radius: 100%;
@@ -1539,7 +1534,7 @@ nav a:hover {
   width: calc(var(--swiper-navigation-size)/ 44 * 27);
   height: var(--swiper-navigation-size);
   margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
-  margin-top: 3rem !important;
+  /* margin-top: 3rem !important; */
   z-index: 10;
   cursor: pointer;
   display: flex;
@@ -1836,7 +1831,7 @@ nav a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  /* background: #ddd ; */
+  /* background-color: #dcb423; */
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -1845,13 +1840,13 @@ nav a:hover {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: gold;
   line-height: 1.5;
 }
 
 .back-to-top:hover {
   /* background: #ddd; */
-  color: #fff
+  color: gold;
 }
 
 .back-to-top.active {
@@ -2237,6 +2232,7 @@ nav a:hover {
 .contact {
   /* background: #e5ecfb; */
   min-height: 60vh;
+  margin-top: 6rem;
 }
 
 .contact .container {
@@ -2797,11 +2793,6 @@ form .button-area {
     margin-right: 0px;
   }
 
-  .sm\:mx-1 {
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
-  }
-
   .sm\:mx-16 {
     margin-left: 4rem;
     margin-right: 4rem;
@@ -2835,15 +2826,6 @@ form .button-area {
     text-align: left;
   }
 
-  .sm\:text-justify {
-    text-align: justify;
-  }
-
-  .sm\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .sm\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -2857,11 +2839,6 @@ form .button-area {
   .sm\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-
-  .sm\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 }
 
